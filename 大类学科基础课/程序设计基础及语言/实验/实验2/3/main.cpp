@@ -1,3 +1,51 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:990029189b23118c09e2e850fb8cbeaa441e3df5519f94ed17925a7bef08ea90
-size 792
+#include "RationalNumber.h"
+#include<iostream>
+using std::cout;
+
+int main()
+{
+	RationalNumber r1(7,3);
+	RationalNumber r2(1,3);
+	RationalNumber r3;
+	r3=r1+r2;
+	r1.printRational();
+	cout<<" + ";
+	r2.printRational();
+	cout<<" = ";
+	r3.printRational();
+	cout<<'\n';
+	
+	r3=r1-r2;
+	r1.printRational();
+	cout<<" - ";
+	r2.printRational();
+	cout<<" = ";
+	r3.printRational();
+	cout<<'\n';
+	
+	r3=r1*r2;
+	r1.printRational();
+	cout<<" * ";
+	r2.printRational();
+	cout<<" = ";
+	r3.printRational();
+	cout<<'\n';
+	
+	r3=r1/r2;
+	r1.printRational();
+	cout<<" / ";
+	r2.printRational();
+	cout<<" = ";
+	r3.printRational();
+	cout<<'\n';
+	
+	r1.printRational();
+	cout<<((r1<r2)?" < ":" > ");
+	r2.printRational();
+	cout<<'\n';
+	
+	r1.printRational();
+	cout<<((r1==r2)?" = ":" != ");
+	r2.printRational();
+	cout<<'\n';
+}

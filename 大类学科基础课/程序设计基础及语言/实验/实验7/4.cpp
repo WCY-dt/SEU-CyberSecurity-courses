@@ -1,3 +1,33 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:08815ce69ff75e0f1704d5501689158395c7931107665cb6c816361d19c5b485
-size 442
+#include <iostream>
+#include <stdexcept>
+#include <string>
+using namespace std;
+class TestException : public runtime_error
+{
+public:
+    TestException(string s = "") : runtime_error(s) {}
+};
+void f()
+{
+    throw TestException("TestException");
+}
+void g()
+{
+    f();
+}
+void h()
+{
+    g();
+}
+int main()
+{
+    try
+    {
+        h();
+    }
+    catch (TestException &ex)
+    {
+        cout << "In main: Caught ";
+        cerr << ex.what();
+    }
+}

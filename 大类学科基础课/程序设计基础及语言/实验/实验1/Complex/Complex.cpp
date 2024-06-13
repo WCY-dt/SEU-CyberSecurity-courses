@@ -1,3 +1,24 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:8368f5b8ea78a981a5faa0491d422e8cda7d39672e03aeb837397eccbbd601b5
-size 443
+#include "Complex.h"
+
+ostream &operator<<(ostream &output,const Complex &c)
+{
+	output<<"("<<c.r<<","<<c.i<<")";
+	return output;
+}
+	
+Complex::Complex(double real,double imaginary)
+{
+	this->r=real;
+	this->i=imaginary;
+}
+
+Complex Complex::operator+(const Complex&c) const
+{
+	Complex temp(this->r + c.r,this->i + c.i);
+	return temp;
+}
+Complex Complex::operator-(const Complex&c) const
+{
+	Complex temp(this->r - c.r,this->i - c.i);
+	return temp;
+}

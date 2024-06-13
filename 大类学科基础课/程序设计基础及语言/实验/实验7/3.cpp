@@ -1,3 +1,31 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:73f3e4433f31f55ad3b025f8c3150cf68af14412af28e52afac3487ab0bdb17e
-size 528
+#include <iostream>
+#include <stdexcept>
+using namespace std;
+class TestException : public runtime_error
+{
+public:
+    TestException() : runtime_error("abnormal program termination") {}
+};
+void g()
+{
+    try
+    {
+        throw TestException();
+    }
+    catch (TestException &)
+    {
+        cerr << "Exception caught in function g(). Rethrowing...\n";
+        throw;
+    }
+}
+int main()
+{
+    try
+    {
+        g();
+    }
+    catch (TestException &)
+    {
+        cout << "Exception caught in function main()." << endl;
+    }
+}

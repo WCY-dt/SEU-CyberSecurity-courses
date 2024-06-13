@@ -1,3 +1,17 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:9b8c7dd0ac750d999105a0359f45c749ed155237714dcad6ee516ec3585d3e84
-size 461
+function N=correlation(mark_get,mark_prime) 
+mark_get=double(mark_get); 
+mark_prime=double(mark_prime); 
+if size(mark_get)~=size(mark_prime) 
+    error('Input vectors must  be the same size!') 
+else 
+    [m,n]=size(mark_get); 
+    fenzi=0; 
+    fenmu=0; 
+    for i=1:m 
+        for j=1:n 
+            fenzi=fenzi+mark_get(i,j)*mark_prime(i,j); 
+            fenmu=fenmu+mark_prime(i,j)*mark_prime(i,j); 
+        end 
+    end 
+N=min(fenzi/fenmu,fenmu/fenzi); 
+end

@@ -1,3 +1,23 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:655250e5fc1c011c6288791e5f3574d24e4180fd79f52e8dc980ac2fd339f415
-size 412
+#include <iostream>
+#include <stdexcept>
+using namespace std;
+
+class TestException : public runtime_error
+{
+public:
+    TestException() : runtime_error("abnormal program termination") {}
+};
+
+int main()
+{
+    try
+    {
+        throw TestException();
+    }
+    catch (TestException &testexception)
+    {
+        cout << "This is a test\n"
+             << endl;
+        cout << testexception.what() << endl;
+    }
+}

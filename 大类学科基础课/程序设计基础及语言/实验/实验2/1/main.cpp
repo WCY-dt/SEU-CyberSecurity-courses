@@ -1,3 +1,24 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:9b4b4457ba3106d83ad31eaa879153b80d95295b003628ec582e820d9ce9b26e
-size 496
+#include "Complex.h"
+using std::cin;
+using std::cout;
+
+int main()
+{
+	Complex x,y(4.3,8.2),z(3.3,1.1),k;
+	cout<<"Enter a complex number in the form (a,b): ";
+	cin>>k;
+	cout<<"x: "<<x<<"\ny: "<<y<<"\nz: "<<z<<"\nk: "<<k<<'\n';
+	x=y+z;
+	cout<<"\nx=y+z:\n"<<x<<"="<<y<<"+"<<z<<'\n';
+	x=y-z;
+	cout<<"\nx=y-z:\n"<<x<<"="<<y<<"-"<<z<<'\n';
+	x=y*z;
+ 	cout<<"\nx=y*z:\n"<<x<<"="<<y<<"*"<<z<<"\n\n";
+	if (x!=k)
+		cout<<x<<"!="<<k<<'\n';
+	cout<<'\n';
+	x=k;
+	if (x==k)
+		cout<<x<<"=="<<k<<'\n';
+	return 0;
+}

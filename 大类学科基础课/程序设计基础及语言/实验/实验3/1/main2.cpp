@@ -1,3 +1,59 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:51ae3b2c909d34bde94178d4d9cd2b0ec3746c4dd2c9e49471244d9e1db1159a
-size 1104
+#include <iostream>
+class MyBase1
+{
+public:
+    MyBase1()
+    {
+        std::cout << "…BaseClass1 Object is created!" << std::endl;
+    }
+    ~MyBase1()
+    {
+        std::cout << "…BaseClass1 Object is destroyed!" << std::endl;
+    }
+};
+class MyBase2
+{
+    MyBase1 a1;
+
+public:
+    MyBase2()
+    {
+        std::cout << "…BaseClass2 Object is created!" << std::endl;
+    }
+    ~MyBase2()
+    {
+        std::cout << "…BaseClass2 Object is destroyed!" << std::endl;
+    }
+};
+class MyDerived1 : public MyBase2
+{
+    MyBase1 a1;
+
+public:
+    MyDerived1()
+    {
+        std::cout << "…First layer derived Object is created!" << std::endl;
+    }
+    ~MyDerived1()
+    {
+        std::cout << "…First layer derived Object is Destroyed!" << std::endl;
+    }
+};
+class MyDerived11 : public MyDerived1
+{
+public:
+    MyDerived11()
+    {
+        std::cout << "…Second layer derived Object is created!" << std::endl;
+    }
+    ~MyDerived11()
+    {
+        std::cout << "…Second layer derived Object is destroyed!" << std::endl;
+    }
+};
+int main()
+{
+    MyBase2 a;
+    MyDerived1 b;
+    MyDerived11 c;
+}

@@ -1,3 +1,31 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:d775c56f5f89707a44d97b1477aa5ad4f101ee34141edeaf19e1af2cd5ec31f0
-size 652
+#include <stdio.h>
+#include <stdlib.h>
+#include "common.h"
+
+volatile int counter = 0; 
+int loops;
+
+void *worker(void *arg) {
+    int i;
+    for (i = 0; i < loops; i++) {
+	counter = counter + 1;
+    }
+    pthread_exit(NULL);
+}
+
+int main(int argc, char *argv[]) {
+    if (argc != 2) { 
+	fprintf(stderr, "usage: threads <loops>\n"); 
+	exit(1); 
+    } 
+    loops = atoi(argv[1]);
+    pthread_t p1, p2;
+    printf("Initial value : %d\n", counter);
+    Pthread_create(&p1, NULL, worker, NULL); 
+    Pthread_create(&p2, NULL, worker, NULL);
+    Pthread_join(p1, NULL);
+    Pthread_join(p2, NULL);
+    printf("Final value   : %d\n", counter);
+    return 0;
+}
+

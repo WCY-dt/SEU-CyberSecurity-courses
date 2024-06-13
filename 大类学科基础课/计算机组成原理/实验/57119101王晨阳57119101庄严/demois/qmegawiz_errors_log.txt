@@ -1,3 +1,61 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:ccbdeb37c86200c84aaf67fd315caae2cd95d2e18ad2e8639a7e8183eb972a72
-size 2037
+
+
+D:/quartus_13.1/p3/register3/register/lpm_rom2.v
+
+Nov 18 06PM:10:54>: Megafunction LPM_ROM is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted
+
+G:/register/register/lpm_rom2.v
+
+Dec 08 01PM:25:25>: Megafunction LPM_ROM is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted
+
+G:/register/register/lpm_rom2.v
+
+Dec 08 01PM:26:29>: Megafunction LPM_ROM is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted
+
+G:/register/register/lpm_rom2.v
+
+Dec 08 01PM:29:09>: Megafunction LPM_ROM is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted
+
+G:/register/register/lpm_rom2.v
+
+Dec 08 01PM:30:14>: Megafunction LPM_ROM is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted
+
+G:/register/register/lpm_rom2.v
+
+Dec 08 01PM:35:21>: Megafunction LPM_ROM is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted
+
+G:/register/register/lpm_rom2.v
+
+Dec 08 01PM:35:28>: Megafunction LPM_ROM is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted
+
+G:/register/register/lpm_rom2.v
+
+Dec 08 01PM:35:44>: Megafunction LPM_ROM is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted
+
+G:/register/register/lpm_rom2.v
+
+Dec 08 01PM:35:50>: Megafunction LPM_ROM is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted
+
+G:/register/register/lpm_bustri1.v
+
+Dec 08 01PM:37:24>: Megafunction LPM_BUSTRI is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted
+
+G:/register/register/lpm_dff2.v
+
+Dec 08 01PM:43:07>: Megafunction LPM_FF is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted
+
+G:/register/register/lpm_dff2.v
+
+Dec 08 01PM:45:00>: Megafunction LPM_FF is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted

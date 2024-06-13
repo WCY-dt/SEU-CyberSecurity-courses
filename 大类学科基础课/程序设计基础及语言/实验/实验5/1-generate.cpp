@@ -1,3 +1,20 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:8fbe657a3a615833a8a4a641ce1ac624b732218baf299c5789f46566ab760386
-size 525
+#include <cstdio>
+#include <ctime>
+#include <fstream>
+#include <iostream>
+using namespace std;
+int main()
+{
+    ofstream outputFile;
+    outputFile.open("IPv4.csv");
+    srand(time(0));
+    for (int i = 1; i <= 100; i++)
+    {
+        outputFile << rand() % 256 << '.' << rand() % 256 << '.' << rand() % 256 << '.' << rand() % 256 << ' ';
+        char str[50];
+        time_t now = time(NULL);
+        strftime(str, 50, "%Y-%m-%d %H:%M:%S", localtime(&now));
+        outputFile << str << endl;
+    }
+    outputFile.close();
+}

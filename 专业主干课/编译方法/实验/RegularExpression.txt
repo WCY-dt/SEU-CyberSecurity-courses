@@ -1,3 +1,4 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:9fa781ec2d328009928e289e08fd6779d07f22f2aba85cf9e2b0be7e470c8a6f
-size 353
+(~()+(~))+(~+)+(~*)+(:)+(;)+(,)+(-)+(=)+(:.=)+(<.>)+(<.=)+(>.=)+(>)+(<)+(o.r)+(a.n.d)+(m.o.d)+(d.i.v)
+([0-9]).([0-9])*
+([a-z]+[A-Z]+_).([a-z]+[A-Z]+[0-9]+_)*
+(m.a.i.n)+(i.f)+(t.h.e.n)+(e.l.s.e)+(w.h.i.l.e)+(f.o.r)+(d.o)+(b.e.g.i.n)+(e.n.d)+(v.a.r)+(i.n.t.e.g.e.r)+(r.e.a.l)+(f.u.n.c.t.i.o.n)+(a.r.r.a.y)+(p.r.o.c.e.d.u.r.e)+(r.e.s.u.l.t)+(p.r.o.g.r.a.m)

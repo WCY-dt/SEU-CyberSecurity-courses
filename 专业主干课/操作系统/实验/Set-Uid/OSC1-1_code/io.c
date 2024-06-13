@@ -1,3 +1,25 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:81ce4364f65a7b4aa5815e3bab8e6d85232f28ada62e6af8dad65e1864ab44de
-size 523
+#include <stdio.h>
+#include <unistd.h>
+#include <assert.h>
+#include <fcntl.h>
+#include <sys/types.h>
+#include <string.h>
+
+void do_work() {
+    int fd = open("/tmp/file", O_WRONLY | O_CREAT | O_TRUNC, 
+		  S_IRUSR | S_IWUSR);
+    assert(fd >= 0);
+    char buffer[20];
+    sprintf(buffer, "hello world\n");
+    int rc = write(fd, buffer, strlen(buffer));
+    assert(rc == strlen(buffer));
+    printf("wrote %d bytes\n", rc);
+    fsync(fd);
+    close(fd);
+}
+
+int main(int argc, char *argv[]) {
+    do_work();
+    return 0;
+}
+

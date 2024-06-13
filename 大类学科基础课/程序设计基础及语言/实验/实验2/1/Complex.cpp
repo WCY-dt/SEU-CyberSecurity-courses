@@ -1,3 +1,58 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:040996e1acab02b6d23fb6ae84eb738c9d4b2c16ef4a3c2f4e7af332e713d200
-size 1066
+#include "Complex.h"
+
+std::ostream &operator<<(std::ostream &output,const Complex &c)
+{
+	output<<"("<<c.r<<","<<c.i<<")";
+	return output;
+}
+std::istream &operator>>(std::istream &input,Complex &c)
+{
+	char cc;
+	input.ignore();
+	input>>c.r;
+	input.ignore();
+	input>>c.i;
+	input.ignore();
+	return input;
+}
+	
+Complex::Complex(double real,double imaginary)
+{
+	this->r=real;
+	this->i=imaginary;
+}
+
+Complex Complex::operator+(const Complex&c) const
+{
+	Complex temp(this->r + c.r,this->i + c.i);
+	return temp;
+}
+Complex Complex::operator-(const Complex&c) const
+{
+	Complex temp(this->r - c.r,this->i - c.i);
+	return temp;
+}
+Complex Complex::operator*(const Complex&c) const
+{
+	Complex temp((this->r * c.r)-(this->i * c.i),
+				 (this->r * c.i)+(this->i * c.r));
+	return temp;
+}
+
+
+Complex &Complex::operator=(const Complex&c)
+{
+	this->r = c.r;
+	this->i = c.i;
+	return *this;
+}
+
+bool Complex::operator==(const Complex&c) const
+{
+	return ((this->r == c.r)&&(this->i == c.i));
+}
+
+bool Complex::operator!=(const Complex&c) const
+{
+	return ((this->r != c.r)||(this->i != c.i));
+}
