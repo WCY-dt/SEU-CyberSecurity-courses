@@ -60,43 +60,43 @@
 
 - **专业方向及跨学科选修课**
 
-  | 课程名称                 | 课件 | 笔记 | 作业 | 试卷 | 实验 |
-  | ------------------------ | :--: | :--: | :--: | :--: | :--: |
-  | [网络空间安全法律基础](https://github.com/WCY-dt/SEU-CyberSecurity-courses/tree/main/专业方向及跨学科选修课/网络空间安全法律基础)    |  √   |      |      |      |      |
-  | [网络入侵检测与数字取证](https://github.com/WCY-dt/SEU-CyberSecurity-courses/tree/main/专业方向及跨学科选修课/网络入侵检测与数字取证)   |  √   |      |  √   |      |  √   |
-  | [算法分析与设计](https://github.com/WCY-dt/SEU-CyberSecurity-courses/tree/main/专业方向及跨学科选修课/算法分析与设计)           |  √   |      |      |      |      |
-  | 数据库原理与技术         |      |      |      |      |      |
-  | 多媒体技术               |      |      |      |      |      |
-  | 安全编程                 |      |      |      |      |      |
-  | [最优化理论与技术](https://github.com/WCY-dt/SEU-CyberSecurity-courses/tree/main/专业方向及跨学科选修课/最优化理论与技术)         |  √   |  √   |  √   |      |      |
-  | [二进制代码分析](https://github.com/WCY-dt/SEU-CyberSecurity-courses/tree/main/专业方向及跨学科选修课/二进制代码分析)           |  √   |      |      |      |      |
-  | 信息论与编码             |      |      |      |      |      |
-  | [数字隐藏与数字水印](https://github.com/WCY-dt/SEU-CyberSecurity-courses/tree/main/专业方向及跨学科选修课/数字隐藏与数字水印)      |  √   |      |  √   |      |  √   |
-  | [数字通信](https://github.com/WCY-dt/SEU-CyberSecurity-courses/tree/main/专业方向及跨学科选修课/数字通信)              |  √   |      |  √   |      |      |
-  | 电子测量原理             |      |      |      |      |      |
-  | 软件安全与恶意代码分析   |      |      |      |      |      |
-  | 数据隐私保护             |      |      |      |      |      |
-  | 移动通信                 |      |      |      |      |      |
-  | 嵌入式系统与安全         |      |      |      |      |      |
-  | 分布式系统设计           |      |      |      |      |      |
-  | 量子计算与安全           |      |      |      |      |      |
-  | [网络测量](https://github.com/WCY-dt/SEU-CyberSecurity-courses/tree/main/专业方向及跨学科选修课/网络测量)         |  √   |      |      |      |  √   |
-  | [无线网络安全](https://github.com/WCY-dt/SEU-CyberSecurity-courses/tree/main/专业方向及跨学科选修课/无线网络安全)       |  √   |      |      |      |      |
-  | 人工智能                 |      |      |      |      |      |
-  | 互联网治理               |      |      |      |      |      |
-  | WEB 安全                 |      |      |      |      |      |
-  | 工业控制系统与物联网安全 |      |      |      |      |      |
-  | 大数据系统与安全         |      |      |      |      |      |
-  | 无线传感器网络技术       |      |      |      |      |      |
-  | 物联网安全与漏洞挖掘     |      |      |      |      |      |
+  | 课程名称                                                     | 课件 | 笔记 | 作业 | 试卷 | 实验 |
+  | ------------------------------------------------------------ | :--: | :--: | :--: | :--: | :--: |
+  | [网络空间安全法律基础](https://github.com/WCY-dt/SEU-CyberSecurity-courses/issues/new) |  √   |      |      |      |      |
+  | [网络入侵检测与数字取证](https://github.com/WCY-dt/SEU-CyberSecurity-courses/tree/main/专业方向及跨学科选修课/网络入侵检测与数字取证) |  √   |      |  √   |      |  √   |
+  | [算法分析与设计](https://github.com/WCY-dt/SEU-CyberSecurity-courses/issues/new) |  √   |      |      |      |      |
+  | 数据库原理与技术                                             |      |      |      |      |      |
+  | 多媒体技术                                                   |      |      |      |      |      |
+  | 安全编程                                                     |      |      |      |      |      |
+  | [最优化理论与技术](https://github.com/WCY-dt/SEU-CyberSecurity-courses/tree/main/专业方向及跨学科选修课/最优化理论与技术) |  √   |  √   |  √   |      |      |
+  | [二进制代码分析](https://github.com/WCY-dt/SEU-CyberSecurity-courses/issues/new) |  √   |      |      |      |      |
+  | 信息论与编码                                                 |      |      |      |      |      |
+  | [数字隐藏与数字水印](https://github.com/WCY-dt/SEU-CyberSecurity-courses/tree/main/专业方向及跨学科选修课/数字隐藏与数字水印) |  √   |      |  √   |      |  √   |
+  | [数字通信](https://github.com/WCY-dt/SEU-CyberSecurity-courses/tree/main/专业方向及跨学科选修课/数字通信) |  √   |      |  √   |      |      |
+  | 电子测量原理                                                 |      |      |      |      |      |
+  | 软件安全与恶意代码分析                                       |      |      |      |      |      |
+  | 数据隐私保护                                                 |      |      |      |      |      |
+  | 移动通信                                                     |      |      |      |      |      |
+  | 嵌入式系统与安全                                             |      |      |      |      |      |
+  | 分布式系统设计                                               |      |      |      |      |      |
+  | 量子计算与安全                                               |      |      |      |      |      |
+  | [网络测量](https://github.com/WCY-dt/SEU-CyberSecurity-courses/tree/main/专业方向及跨学科选修课/网络测量) |  √   |      |      |      |  √   |
+  | [无线网络安全](https://github.com/WCY-dt/SEU-CyberSecurity-courses/issues/new) |  √   |      |      |      |      |
+  | 人工智能                                                     |      |      |      |      |      |
+  | 互联网治理                                                   |      |      |      |      |      |
+  | WEB 安全                                                     |      |      |      |      |      |
+  | 工业控制系统与物联网安全                                     |      |      |      |      |      |
+  | 大数据系统与安全                                             |      |      |      |      |      |
+  | 无线传感器网络技术                                           |      |      |      |      |      |
+  | 物联网安全与漏洞挖掘                                         |      |      |      |      |      |
 
 - **短学期课程**
 
   | 课程名称       | 课件 | 笔记 | 作业 | 试卷 | 实验 |
   | -------------- | :--: | :--: | :--: | :--: | :--: |
   | [数字逻辑电路实验](https://github.com/WCY-dt/SEU-CyberSecurity-courses/tree/main/短学期课程/数字逻辑电路实验) | √ |  |  |  | √ |
-  | [语言课程设计](https://github.com/WCY-dt/SEU-CyberSecurity-courses/tree/main/短学期课程/语言课程设计) | √ |  |  |  |  |
-  | [专业阅读与写作](https://github.com/WCY-dt/SEU-CyberSecurity-courses/tree/main/短学期课程/专业阅读与写作) | √ |  |  |  |  |
+  | [语言课程设计](https://github.com/WCY-dt/SEU-CyberSecurity-courses/issues/new) | √ |  |  |  |  |
+  | [专业阅读与写作](https://github.com/WCY-dt/SEU-CyberSecurity-courses/issues/new) | √ |  |  |  |  |
   | [密码学实验](https://github.com/WCY-dt/SEU-CyberSecurity-courses/tree/main/短学期课程/密码学实验) |  |  |  |  | √ |
   | [网络工程与组网技术](https://github.com/WCY-dt/SEU-CyberSecurity-courses/tree/main/短学期课程/网络工程与组网技术) |      |      |      |      |  √   |
   | [操作系统课程设计](https://github.com/WCY-dt/SEU-CyberSecurity-courses/tree/main/短学期课程/操作系统课程设计) | | | | | √ |
