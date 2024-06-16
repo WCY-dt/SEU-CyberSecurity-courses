@@ -1,0 +1,46 @@
+name: 🥺内容增加
+description: 希望增加某门课程的内容。
+title: "[新增]: "
+labels: ["question"]
+body:
+- type: markdown
+  attributes:
+    value: |
+      欢迎提出任何请求！请填写以下内容，以帮助我们更好地理解问题并解决它。
+- type: dropdown
+  id: type
+  attributes:
+    label: 课程类型
+    multiple: false
+    options:
+      - 通识教育基础课
+      - 大类学科基础课
+      - 专业主干课
+      - 专业方向及跨学科选修课
+      - 短学期课程
+      - 研究生公共课
+      - 其他
+- type: textarea
+  id: requirements
+  attributes:
+    label: 需求描述
+    description: 请简要描述您的需求。
+    placeholder: ex. 我想要添加原神的课程。
+  validations:
+    required: true
+- type: textarea
+  id: details
+  attributes:
+    label: 详细描述（可选）
+    description: 请详细描述您的需求。
+    placeholder: ex. 你说得对，但原神是一款……
+  validations:
+    required: false
+- type: checkboxes
+  id: terms
+  attributes:
+    label: 提交前请确认
+    description: 请确认您已阅读并同意遵守本项目的行为准则。
+    options:
+      - label: 我确认发布的内容不包含侮辱性、歧视性、攻击性内容。同时，我确保能够与他人友好地讨论问题。
+        required: true
