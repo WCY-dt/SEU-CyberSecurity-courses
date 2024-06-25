@@ -1,7 +1,7 @@
 # SEU-CyberSecurity-courses
 
 > [!TIP]
-> **如果觉得这个仓库对你有用，拜托给我[别的项目们](https://github.com/WCY-dt?tab=repositories)也点一点Star，这会对我有非常大的帮助** :blush:
+> **如果觉得这个仓库对你有用，拜托点个Star** :blush:
 
 > [!TIP]
 > 2024年6月13日更新：
@@ -121,11 +121,11 @@
 > [!CAUTION]
 > 老师的绝大多数PPT出于版权考虑不能上传，如确实有特殊情况需要，请发 [Issue](https://github.com/WCY-dt/SEU-CyberSecurity-courses/issues/new) 单独索取。
 
-同时，欢迎提交 [PR](https://github.com/WCY-dt/SEU-CyberSecurity-courses/compare) 进行补充。
+同时，欢迎 [Pull Request](https://github.com/WCY-dt/SEU-CyberSecurity-courses/compare) 进行补充。
 
 ## 统计
 
-![Number of stars](https://starchart.cc/WCY-dt/SEU-CyberSecurity-courses.svg)
+[![Stargazers over time](https://starchart.cc/WCY-dt/SEU-CyberSecurity-courses.svg?variant=adaptive)](https://starchart.cc/WCY-dt/SEU-CyberSecurity-courses)
 
 [![Stargazers repo roster for @WCY-dt/SEU-CyberSecurity-courses](https://reporoster.com/stars/WCY-dt/SEU-CyberSecurity-courses)](https://github.com/WCY-dt/SEU-CyberSecurity-courses/stargazers)
 
