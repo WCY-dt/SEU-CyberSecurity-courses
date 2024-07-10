@@ -4,10 +4,7 @@
 > **如果觉得这个仓库对你有用，拜托点个Star** :blush:
 
 > [!TIP]
-> 2024年6月13日更新：
->
-> 1. 使用 Git LFS，加快下载速度
-> 2. 更新研究生公共课
+> 页面右侧提供了可以直接下载的 Release。
 
 <img src="https://img.shields.io/github/stars/wcy-dt/SEU-CyberSecurity-courses.svg"> <img src="https://img.shields.io/github/forks/wcy-dt/SEU-CyberSecurity-courses.svg"> <img src="https://badges.frapsoft.com/os/v3/open-source.svg?v=103">
 
